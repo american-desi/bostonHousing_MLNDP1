@@ -2164,7 +2164,9 @@ xRKfMcaYdsUSnzHGmHbFEp8xxph25f8BaQjRjQ6BduAAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> For the model at max depth 1 the model suffers from high bias while at max depth 10 it suffers from high variance. The reason why I think max depth = 1 suffers from high bias is because it isn't given enough data therefore leads to favoring a certain score without considering more data in the set. Max depth = 10 suffers high variance because more depth involves more data therefore the model is trying to overfit its predictions.  You can determine the bias and variance visually based on the relative proximity of the training and validation score points.</p>
+<p><strong>Answer: </strong> The model at max depth 1 suffers from high bias while at max depth 10 it suffers from high variance.</p>
+<p>Max depth = 1 suffers from high bias is because it isn't given enough data therefore leads to favoring a certain score without considering more data in the set. Furthermore when looking at the graph, R squared for training and testing is the same thus concludes skewed retails.</p>
+<p>Max depth = 10 suffers high variance because more depth involves more data therefore the model is trying to overfit its predictions.  You can determine the bias and variance visually based on the relative proximity of the training and validation score points. When looking at the graph, R squared for training and testing is very distant with training having a R squared score of 1 while testing has a R squared score of .6. This results in overfitting.</p>
 
 </div>
 </div>
